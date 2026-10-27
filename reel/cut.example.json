@@ -1,0 +1,22 @@
+{
+ "fps": 30,
+ "out": "public/reel",
+ "words": "reel/words.json",
+ "fix": {},
+ "clips": [
+  {
+   "id": "c1",
+   "src": "public/reel/take1.mp4",
+   "transcript": "reel/take1.json",
+   "in": 0.4,
+   "out": 6.2,
+   "remove": [[2.1, 2.6]]
+  },
+  {
+   "id": "c2",
+   "src": "public/reel/take2.mp4",
+   "transcript": "reel/take2.json",
+   "cutout": "public/reel/take2-cutout-raw.webm"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+node_modules
+.DS_Store
+.env*
+out/
+
+# Your footage, everything made from it, and your transcripts stay on your
+# machine. reel/words.json is tracked only as the sample: after `npm run cut`
+# it holds your words, so don't commit it (git update-index --skip-worktree
+# reel/words.json keeps it out).
+public/footage/*
+!public/footage/.gitkeep
+public/reel/*
+!public/reel/.gitkeep
+reel/*
+!reel/cut.example.json
+!reel/words.json
+
+# Whisper model cache.
+models/

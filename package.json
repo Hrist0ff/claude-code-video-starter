@@ -1,0 +1,28 @@
+{
+  "name": "claude-code-video-starter",
+  "version": "0.1.0",
+  "description": "Edit talking-head videos with Claude Code and Remotion: transcript to the frame, pause cuts, cut-out, captions and screen camera moves, all in code.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "transcribe": "node scripts/transcribe.mjs",
+    "cut": "node scripts/cut-talking-head.mjs reel/cut.json"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.2.0",
+    "@remotion/cli": "4.0.534",
+    "@remotion/media": "4.0.534",
+    "@remotion/whisper-webgpu": "4.0.534",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

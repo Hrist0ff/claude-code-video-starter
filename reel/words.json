@@ -1,0 +1,117 @@
+{
+ "sample": "Placeholder timing so Studio shows something. npm run cut replaces this file.",
+ "fps": 30,
+ "durationInFrames": 190,
+ "clips": {
+  "demo": {
+   "startFrame": 0
+  }
+ },
+ "segments": [],
+ "words": [
+  {
+   "id": "demo-000",
+   "text": "This",
+   "start": 0.2,
+   "end": 0.52,
+   "startFrame": 6,
+   "endFrame": 16
+  },
+  {
+   "id": "demo-001",
+   "text": "video",
+   "start": 0.56,
+   "end": 0.915,
+   "startFrame": 17,
+   "endFrame": 27
+  },
+  {
+   "id": "demo-002",
+   "text": "was",
+   "start": 0.955,
+   "end": 1.24,
+   "startFrame": 29,
+   "endFrame": 37
+  },
+  {
+   "id": "demo-003",
+   "text": "edited",
+   "start": 1.28,
+   "end": 1.67,
+   "startFrame": 38,
+   "endFrame": 50
+  },
+  {
+   "id": "demo-004",
+   "text": "in",
+   "start": 1.71,
+   "end": 1.96,
+   "startFrame": 51,
+   "endFrame": 59
+  },
+  {
+   "id": "demo-005",
+   "text": "code.",
+   "start": 2.0,
+   "end": 2.32,
+   "startFrame": 60,
+   "endFrame": 70
+  },
+  {
+   "id": "demo-006",
+   "text": "Every",
+   "start": 2.71,
+   "end": 3.065,
+   "startFrame": 81,
+   "endFrame": 92
+  },
+  {
+   "id": "demo-007",
+   "text": "word",
+   "start": 3.105,
+   "end": 3.425,
+   "startFrame": 93,
+   "endFrame": 103
+  },
+  {
+   "id": "demo-008",
+   "text": "lands",
+   "start": 3.465,
+   "end": 3.82,
+   "startFrame": 104,
+   "endFrame": 115
+  },
+  {
+   "id": "demo-009",
+   "text": "on",
+   "start": 3.86,
+   "end": 4.11,
+   "startFrame": 116,
+   "endFrame": 123
+  },
+  {
+   "id": "demo-010",
+   "text": "its",
+   "start": 4.15,
+   "end": 4.435,
+   "startFrame": 124,
+   "endFrame": 133
+  },
+  {
+   "id": "demo-011",
+   "text": "own",
+   "start": 4.475,
+   "end": 4.76,
+   "startFrame": 134,
+   "endFrame": 143
+  },
+  {
+   "id": "demo-012",
+   "text": "frame.",
+   "start": 4.8,
+   "end": 5.155,
+   "startFrame": 144,
+   "endFrame": 155
+  }
+ ]
+}
